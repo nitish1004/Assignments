@@ -1,0 +1,33 @@
+mkdir project_dir
+cd project_dir
+git init
+git status
+git add index.html style.css
+git commit -m "Saving the file without edit"
+touch info.txt
+git status
+echo info.txt >> .gitignore
+git status
+git add index.html
+git status
+git commit -m 'Remove the middle name'
+git log
+git config --global user.username AsitDas637
+git remote add origin https://github.com/AsitDas637/asit_demo.git
+git push origin master
+git clone https://github.com/AsitDas637/asit_demo.git
+cd asit_practice
+git status
+git checkout --index.html
+git status
+git add index.html
+git log
+git commit -m 'add father name'
+git log
+git status
+git add index.html
+git commit -m 'add mother name'
+git log
+git revert fec043adcccf6fc25c4822c6f70918ce43a7c493 (commit id)
+
+git config --global alias.my-add add
